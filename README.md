@@ -3,7 +3,7 @@
 This password checker is a command-line tool that checks if your password has been compromised in known data breaches without ever exposing your actual password.
 
 ## The Problem It Solves
-The main problem with using websites like haveibeenpwned.com to check your passwords is that information entered into search forms may be stored for an undisclosed amount of time and could potentially be shared with third-party servers like Google. (See https://haveibeenpwned.com/privacy#Logging.) Trusting others with your password leaves your information vulnerable to exposure or interception. However, this password checker tool ensures that neither your password nor its full cryptographic hash leaves your computer.
+The main problem with using websites like https://haveibeenpwned.com to check your passwords is that information entered into search forms may be stored for an undisclosed amount of time and could potentially be shared with third-party servers like Google. (See https://haveibeenpwned.com/privacy#Logging.) Trusting others with your password leaves your information vulnerable to exposure or interception. However, this password checker tool ensures that neither your password nor its full cryptographic hash leaves your computer.
 
 ## How It Works
 * **K-Anonymity:** The script hashes the password using the SHA-1 algorithm, so the actual password never gets sent over the internet. 
