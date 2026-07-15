@@ -11,6 +11,8 @@ The main problem with using websites like https://haveibeenpwned.com to check yo
 * **Secure API Communication:** It takes only the *first 5 characters* of the hash and sends them to the pwnedpasswords API, meaning that the hash of your password (and thereby your password) is never communicated to the API. 
 * **Local Verification:** The API returns a list of all leaked hashes that match the first five characters. The script then compares your hash with the results to see if there is a match, ensuring your full password and its hash never leave your computer.
 
+<img width="2377" height="680" alt="image" src="https://github.com/user-attachments/assets/bfd4a03c-b976-4ef7-851d-0702ed05ada5" />
+
 ## Installation & Setup
 1. Clone the repository.
 2. Create and activate a virtual environment.
